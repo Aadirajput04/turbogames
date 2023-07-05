@@ -1,0 +1,81 @@
+.first-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+
+.right-icon {
+    display: flex;
+    gap: 1rem;
+    z-index: 888;
+    padding-right: 12rem;
+        color: hsla(0,0%,100%,.6);
+}
+.right-icon span{
+    background: #0c0e28;
+    background: linear-gradient(101.05deg,#000 -21.38%,#0f213a 118.63%);
+    border: 0.0625rem solid #262b2f;
+    border-radius: 0.3125rem;
+    color: #fff;
+
+}
+
+.middle-icon {
+    background-image: url(./img/logo-d.ff699708.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 3.1875rem;
+    left: 50%;
+    position: absolute;
+    top: -0.0625rem;
+    transform: translateX(-50%);
+    width: 22.0625rem;
+    z-index: 888;
+
+}
+
+
+.left-icon:after {
+    background-color: radial-gradient(132.14% 132.14% at -17.86% -41.07%, rgba(44, 65, 255, .3) 0, rgba(84, 111, 254, 0) 100%), linear-gradient(127.48deg, #2e353a -43.46%, #1b2026 149.12%);
+    z-index: 888;
+   
+
+
+    border-radius: 0.875rem;
+    content: "";
+    inset: 0.0625rem;
+    position: absolute;
+}
+
+.left-icon{
+    color: hsla(0,0%,100%,.5);
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding-left: 12rem ;
+}
+
+
+
+.upper:after,
+.upper:before {
+    border-radius: 0 0 3.75rem 3.75rem;
+    content: "";
+    position: absolute;
+    top: -0.0625rem;
+}
+
+.upper:after {
+    background: linear-gradient(101.05deg, #000 -21.38%, #0f213a 118.63%);
+    box-shadow: 0 0.5625rem 0.8125rem rgba(5, 11, 43, .3);
+    height: 6.25rem;
+    left: 3.0625rem;
+    right: 3.0625rem;
+
+}
+
+/* .upper{
+    z-index: ;
+} */
